@@ -61,6 +61,6 @@ class MediaReceivedStatusCheck(
         /**
          * How long we'll stay in the call if all participants are muted
          */
-        private val ALL_MUTED_TIMEOUT: Duration = Duration.ofMinutes(10)
+        private val ALL_MUTED_TIMEOUT: Duration = Duration.ofMinutes(15)
     }
 }
